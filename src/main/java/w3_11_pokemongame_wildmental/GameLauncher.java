@@ -7,6 +7,13 @@ public class GameLauncher {
         // 3. 포켓몬 사전 더미데이터 생성 (PokeDex 내부)
 
         Pokemon pokemon1 = new Pokemon();
+        Pokemon pokemon2 = new Pokemon();
+        Pokemon pokemon3 = new Pokemon();
+        Pokemon pokemon4 = new Pokemon();
+        Pokemon pokemon5 = new Pokemon();
+        Pokemon pokemon6 = new Pokemon();
+        Pokemon pokemon7 = new Pokemon();
+        Pokemon pokemon8 = new Pokemon();
         // 1) 리턴타입이 자식 타입인 EvolvedPokemon 인데 Pokemon 타입 변수에 할당
 //        EvolvedPokemon evolvedPokemon1 = pokemon1.evolve();
 //        pokemon1 = evolvedPokemon1;
@@ -17,7 +24,6 @@ public class GameLauncher {
         // 트레이너 VS 야생포켓몬 전투
         Trainer trainer1 = new Trainer();
         Trainer trainer2 = new Trainer();
-        Pokemon pokemon2 = new Pokemon();
         trainer1.hunt(pokemon1);
         trainer2.hunt(pokemon2);
 
