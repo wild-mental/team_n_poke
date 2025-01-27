@@ -8,7 +8,11 @@ public class GameLauncher {
 
         Pokemon pokemon1 = new Pokemon();
         Pokemon pokemon2 = new Pokemon();
+
+
         Pokemon pokemon3 = new Pokemon();
+
+
         Pokemon pokemon4 = new Pokemon();
         Pokemon pokemon5 = new Pokemon();
         Pokemon pokemon6 = new Pokemon();

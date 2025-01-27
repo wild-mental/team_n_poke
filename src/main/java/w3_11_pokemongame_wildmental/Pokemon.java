@@ -5,6 +5,10 @@ import lombok.Getter;
 @Getter
 public class Pokemon implements IPokemon {
     private String pokemonName;
+    private String pokemonName1;
+    private String pokemonName2;
+    private String pokemonName3;
+    private String pokemonName4;
     // final private String pokemonName;
     //
     //    public Pokemon(String pokemonName) {
@@ -12,6 +16,22 @@ public class Pokemon implements IPokemon {
     //    }
     private String customName;
     private int HP;
+
+    public Pokemon() {}
+
+    public Pokemon(
+        String pokemonName, String pokemonName1, String pokemonName2,
+        String pokemonName3, String pokemonName4, String customName,
+        int HP
+    ) {
+        this.pokemonName = pokemonName;
+        this.pokemonName1 = pokemonName1;
+        this.pokemonName2 = pokemonName2;
+        this.pokemonName3 = pokemonName3;
+        this.pokemonName4 = pokemonName4;
+        this.customName = customName;
+        this.HP = HP;
+    }
 
     @Override
     public void attack(Pokemon tgPokemon) {
